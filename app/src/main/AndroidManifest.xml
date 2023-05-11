@@ -13,12 +13,12 @@
         android:theme="@style/Theme.MyMovie"
         tools:targetApi="31">
         <activity
-            android:name=".OnboardingOneActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+            android:name=".onboarding.OnboardingTwoActivity">
         </activity>
+        <activity android:name=".onboarding.OnboardingOneActivity"></activity>
+        <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".onboarding.OnboardingThreeActivity"></activity>
+
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
