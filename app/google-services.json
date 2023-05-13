@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "843546458224",
+    "project_id": "mymovie-a73d2",
+    "storage_bucket": "mymovie-a73d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843546458224:android:5c836e2f92a05648341cb5",
+        "android_client_info": {
+          "package_name": "com.crowcel.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843546458224-st8c0v92usop1s1deu3f0o5ngi9bh57n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuBAnUGdaEnE7crKVWfOSAhS0UadLbzjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843546458224-st8c0v92usop1s1deu3f0o5ngi9bh57n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

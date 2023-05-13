@@ -11,10 +11,10 @@ class SplashScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen_main)
 
-        var handler = Handler()
+        val handler = Handler()
 
         handler.postDelayed({
-            var intent = Intent(this@SplashScreenActivity, OnboardingOneActivity::class.java)
+            val intent = Intent(this@SplashScreenActivity, OnboardingOneActivity::class.java)
             startActivity(intent)
             finish()
         }, 5000)
