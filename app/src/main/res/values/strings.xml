@@ -30,4 +30,6 @@
     <string name="batalkan">Batalkan</string>
     <string name="total_bayar">Total Harus Dibayar</string>
     <string name="total_balance">Total Balance</string>
+    <string name="simpan_data">Simpan Data Baru</string>
+    <string name="edit_profile">Edit Profile</string>
 </resources>
