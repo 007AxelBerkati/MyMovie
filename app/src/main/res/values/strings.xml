@@ -32,4 +32,7 @@
     <string name="total_balance">Total Balance</string>
     <string name="simpan_data">Simpan Data Baru</string>
     <string name="edit_profile">Edit Profile</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="saldo_tersedia">Saldo Tersedia</string>
+    <string name="my_history">My History</string>
 </resources>
