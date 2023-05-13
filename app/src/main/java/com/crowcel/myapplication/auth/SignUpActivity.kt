@@ -1,7 +1,8 @@
-package com.crowcel.myapplication
+package com.crowcel.myapplication.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.crowcel.myapplication.R
 
 class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

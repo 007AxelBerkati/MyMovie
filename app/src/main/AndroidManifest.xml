@@ -16,8 +16,8 @@
             android:name=".onboarding.OnboardingTwoActivity">
         </activity>
         <activity android:name=".onboarding.OnboardingOneActivity"></activity>
-        <activity android:name=".SignInActivity"></activity>
-        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".auth.SignInActivity"></activity>
+        <activity android:name=".auth.SignUpActivity"></activity>
         <activity android:name=".HomeActivity"></activity>
         <activity android:name=".DetailActivity"></activity>
         <activity android:name=".onboarding.OnboardingThreeActivity"></activity>

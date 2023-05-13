@@ -25,4 +25,9 @@
     <string name="pilih_bangku">Pilih Bangku</string>
     <string name="layar_bioskop">Layar Bioskop</string>
     <string name="beli_tiket">Beli Tiket</string>
+    <string name="checkout">Checkout</string>
+    <string name="bayar_sekarang">Bayar Sekarang</string>
+    <string name="batalkan">Batalkan</string>
+    <string name="total_bayar">Total Harus Dibayar</string>
+    <string name="total_balance">Total Balance</string>
 </resources>
