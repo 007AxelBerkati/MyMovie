@@ -8,24 +8,24 @@
     tools:context=".onboarding.OnboardingOneActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_daftar_akun"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/shape_rectangle_blue_grey"
-        android:text="@string/lewati_perkenalan"
+        android:text="@string/daftar_akun"
         android:textColor="@color/colorWhite"
+        app:backgroundTint="@color/colorBlueGrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:backgroundTint="@color/colorBlueGrey"
 
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -33,10 +33,10 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/shape_rectangle_pink"
         android:backgroundTint="@color/colorPink"
-        android:text="@string/lanjutkan"
+        android:text="@string/login"
         android:textColor="@color/colorWhite"
         app:backgroundTint="@color/colorPink"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_daftar_akun"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -80,10 +80,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:text="@string/username" />
+         />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -91,19 +91,19 @@
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/colorWhite"
         android:ems="10"
-        android:hint="@string/username"
+
         android:inputType="textPassword"
         android:minHeight="48dp"
-        android:text="Axel Berkati"
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorWhiteGrey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:text="Axel Berkati"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/et_username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -111,16 +111,17 @@
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/colorWhite"
         android:ems="10"
-        android:hint="@string/username"
+
         android:inputType="textPersonName"
-        android:text="Axel Berkati"
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorWhiteGrey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        tools:text="Axel Berkati"
+        />
 
     <TextView
         android:id="@+id/textView4"
@@ -134,7 +135,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/et_username"
         tools:text="@string/password" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
