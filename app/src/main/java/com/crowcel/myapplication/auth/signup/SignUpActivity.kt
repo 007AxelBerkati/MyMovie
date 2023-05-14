@@ -62,9 +62,6 @@ class SignUpActivity : AppCompatActivity() {
             } else {
                 pushNewUser(sUsername, sEmail, sPassword, sNama)
             }
-
-
-
         }
 
 
