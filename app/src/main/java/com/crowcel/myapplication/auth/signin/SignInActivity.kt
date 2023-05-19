@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.crowcel.myapplication.HomeActivity
+import com.crowcel.myapplication.home.HomeActivity
 import com.crowcel.myapplication.R
 import com.crowcel.myapplication.auth.signup.SignUpActivity
 import com.crowcel.myapplication.utils.Preferences

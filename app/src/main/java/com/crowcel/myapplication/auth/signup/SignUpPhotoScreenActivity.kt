@@ -15,7 +15,7 @@ import android.widget.TextView
 import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.crowcel.myapplication.HomeActivity
+import com.crowcel.myapplication.home.HomeActivity
 import com.crowcel.myapplication.R
 import com.crowcel.myapplication.utils.Preferences
 import com.google.firebase.storage.FirebaseStorage
