@@ -6,10 +6,13 @@ import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.crowcel.myapplication.R
 import com.crowcel.myapplication.databinding.ActivityHomeBinding
+import com.crowcel.myapplication.home.dashboard.DashboardFragment
 
 class HomeActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityHomeBinding
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
